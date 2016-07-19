@@ -1,2 +1,6 @@
 # template_v_2
-template 
+```
+install  win  cmd 
+
+npm install 
+
