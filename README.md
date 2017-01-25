@@ -9,8 +9,17 @@ bower update
 ```
 gulp task
 ```
-gulp watch
-
+gulp  -- одна команда и все 
+gulp watch - просто запустить watch
+gulp build
+gulp webserver  
+gulp sprites
+gulp html:build
+gulp js:build
+gulp style:build
+gulp fonts:build
+gulp fontsbs:build
+gulp image:build
 ```
 Описание:
 шаблон для быстрого старта npm + bower + gulp  + bootstrap3  
