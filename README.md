@@ -1,5 +1,6 @@
 # template_v_2.3
 # bootstrap jq  gulp
+# сборке front-end проекта
 ```
 how install?
 
@@ -22,13 +23,33 @@ gulp fontsbs:build
 gulp image:build
 ```
 Описание:
-шаблон для быстрого старта npm + bower + gulp  + bootstrap3  
+Сборка front-end проекта.
+
+Для работы требуеться nodejs.
+node -v 4.5.0 
+на windows требуется поставить mingw или другую анологичную консоль типо bash.
+
+Шаблон для быстрого старта npm + bower + gulp  + bootstrap3  
+для работы встроеного сервера сконфигурируй имя (browserSync) в gulpfile.js; 
+
+var config = {
+    server: {
+        baseDir: "./www"
+    },
+    tunnel: true,
+    host: 'templ',  - имя хоста 
+    port: 8080,
+    logPrefix: "Frontend" - ваше имя в консоле 
+};
 
 
-для работы встроеного сервера сконфигурируй имя (browserSync); 
 
+первое при установке 
+npm install 
+могут быть ошибки на windows не хватает прав запускаем консольот имени администратора
+ошибки могут быть, но на работу это не влияет, некоторые пакеты просто не ставиться (
+
+bower update
 для установки bower на windows требуется поставить mingw или другую анологичную консоль типо bash. (пользуюсь консолью от git) 
 стандартная консоль не ставит
-
-node -v 4.5.0 
 
