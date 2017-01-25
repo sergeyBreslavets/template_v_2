@@ -1,6 +1,6 @@
 # template_v_2.3
 # bootstrap jq  gulp
-# сборке front-end проекта
+# сборка front-end проекта
 ```
 how install?
 
