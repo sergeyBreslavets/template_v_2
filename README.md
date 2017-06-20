@@ -1,4 +1,4 @@
-# template_v_2.3
+# template_v_2.5
 # bootstrap jq  gulp
 # сборка front-end проекта
 ```
@@ -23,6 +23,8 @@ gulp fontsbs:build
 gulp image:build
 ```
 Описание:
+20.06.2017  обновил пакеты
+
 Сборка front-end проекта.
 
 Для работы требуеться nodejs.
